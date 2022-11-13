@@ -1,0 +1,10 @@
+version: "3"
+services:
+  jekyll:
+    container_name: gitBlog
+    image: jekyll/jekyll:4.2.2
+    ports:
+      - 4000:4000
+    volumes:
+      - $PWD:/srv/jekyll
+    command: jekyll serve
