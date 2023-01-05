@@ -1,4 +1,23 @@
+<!-- <style type="text/css" media="screen">
+.post-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+</style> -->
+
 {%- include functions.html func='log' level='debug' msg='Get categories value' -%}
+
+<!-- <div class="post-menu">
+    <div class="post-menu-title" style="text-decoration: underline; margin: 0;">Categories</div>
+    <div class="post-menu-content"></div>
+</div> -->
+
+<div style="text-align: center; font-size: x-large; font-weight: bold;">
+    Categories
+</div>
+
+
 
 {%- include functions.html func='get_categories' -%}
 {% assign categories = return %}
