@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: uuuseok
+title: useok's blog
 email: useok2791@gmail.com
 author: uuuseok
 
@@ -46,13 +46,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   uuuseok's blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://uuuseok.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
+favicon: "/assets/images/favicon/favicon.ico" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
-  date_format: "%b %d, %Y"
-
+  date_format: "%Y-%m-%d"
 # If you want more debug log, you can set true
 # debug: false
 
@@ -131,7 +130,9 @@ lang: "ko"  # default lang is en
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+night_mode: "off"
+
+future: true
 
 # Code badge setting
 # You can enable or disable the code badge and so on
