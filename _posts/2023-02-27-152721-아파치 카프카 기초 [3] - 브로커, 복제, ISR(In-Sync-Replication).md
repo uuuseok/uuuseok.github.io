@@ -56,3 +56,9 @@ ack는 0, 1, all 옵션 3개중 하나를 선택해 사용할 수 있음
 
 파티션 수를 결정할 때, 지연율과 안정성 trade-off 고려해야 함
 <br><br>3개 이상의 브로커를 사용할 때 replication은 3으로 설정하는 것을 추천
+
+
+---
+
+참고 강의 : [https://www.inflearn.com/course/아파치-카프카-입문/dashboard](https://www.inflearn.com/course/%EC%95%84%ED%8C%8C%EC%B9%98-%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%9E%85%EB%AC%B8/dashboard)
+
